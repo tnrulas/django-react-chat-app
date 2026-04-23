@@ -1,0 +1,15 @@
+# Python / Django
+venv/
+__pycache__/
+*.pyc
+db.sqlite3
+.env
+
+# MySQL / Yerel Veritabanı Yedekleri
+*.sql
+*.mysql
+
+# Node / React
+node_modules/
+build/
+.DS_Store
