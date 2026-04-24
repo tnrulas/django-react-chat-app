@@ -1,0 +1,25 @@
+1. python -m venv env
+
+2. env/Scripts/activate
+
+3. (oluştur) gereklilikler.txt -> gereklilikler.txt
+
+5. pip install -r requirements.txt
+
+6. django-admin startproject backend
+
+7. cd backend
+
+8. python manage.py startapp authorization 
+
+9. python manage.py startapp chat -> settings
+
+27. python manage.py migrate -> authhorization/models.py
+
+31. (oluştur) authorization/serializers.py -> serializers.py
+
+53. pip install Pillow
+
+52. python manage.py makemigrations
+
+53. python manage.py migrate
